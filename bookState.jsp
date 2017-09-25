@@ -167,7 +167,7 @@
     }
     
     function fnbooks(){
-        var url="http://127.0.0.1:8088/jQDemos/2detailbooks.jsp";
+        var url="http://127.0.0.1:8088/jQDemos/bookInformation.jsp";
         window.location.href=url;    
     }
 		
