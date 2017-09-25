@@ -94,7 +94,7 @@
 	});
 	
 	function fnbooks(){
-        var url="http://127.0.0.1:8088/jQDemos/2stutobooks.jsp";
+        var url="http://127.0.0.1:8088/jQDemos/bookState.jsp";
         window.location.href=url;    
     }
 	
