@@ -108,7 +108,7 @@ $(document).ready(function() {
 		if (result.length==0){
 			$.messager.alert('系统提示','<br>&nbsp;账号错误！','error');
 		}else{
-		     var url="http://127.0.0.1:8088/jQDemos/2studentbook.jsp";
+		     var url="http://127.0.0.1:8088/jQDemos/s-booklend.jsp";
              window.location.href=url;
              }
       } 
@@ -135,9 +135,8 @@ $(document).ready(function() {
 		if (result.length==0){
 			$.messager.alert('系统提示','<br>&nbsp;密码错误或未注册！','error');
 		}else{
-		      var url="http://127.0.0.1:8088/jQDemos/2students.jsp";
-		       //var url="http://127.0.0.1:8088/jQDemos/2students.jsp?id="'+'&'+stuid+'&'+'"";
-              window.location.href=url;
+		      var url="http://127.0.0.1:8088/jQDemos/m-studentInformation.jsp";
+		      window.location.href=url;
              }
       }
          
